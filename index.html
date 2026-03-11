@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAC-JBREC | TechXplore & Aakriti 2K26</title>
+
+    <!-- Premium Font Stack -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="indstyle.css">
+</head>
+
+<body>
+
+    <!-- Cursor Glow Effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
+    <!-- ====== NAVIGATION ====== -->
+    <nav id="navbar">
+        <div class="nav-left">
+            <a href="https://jbrec.edu.in" class="nav-logo" target="_blank">
+                <img src="images/JBREC-Logo.jpg" alt="JBREC Logo" />
+                <span class="nav-logo-text">SAC · JBREC</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="./index4c.html">Home</a>
+                <a href="./ehub.html">Events</a>
+                <a href="./about.html">About</a>
+                <!-- Mobile Theme Switcher will be injected here automatically by JS on <768px screens -->
+            </div>
+        </div>
+
+        <!-- Nav Actions Container -->
+        <div class="nav-actions">
+            <!-- Theme Switcher — Segmented Control -->
+            <div class="theme-switch-wrapper" id="themeSwitcher">
+                <div class="theme-slider" id="themeSlider"></div>
+                <button class="theme-btn" data-theme-val="light">Light</button>
+                <button class="theme-btn" data-theme-val="system">System</button>
+                <button class="theme-btn active" data-theme-val="dark">Dark</button>
+            </div>
+
+            <!-- Hamburger Icon -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ====== HERO ====== -->
+        <header id="home">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+            <div class="hero-grid"></div>
+
+            <div class="hero-eyebrow">Accredited by NAAC with A+</div>
+
+            <h1 class="hero-title">
+                Joginpally B.R.<br /><em>Engineering College</em>
+            </h1>
+
+            <div class="hero-divider"></div>
+
+            <p class="hero-subtitle">
+                Recognized under 2(f) of UGC Act 1956 · ISO 9001:2015 Certified<br />
+                Yenkapally (V), Moinabad (M), R.R. District, Hyderabad - 500 075
+            </p>
+
+            <div class="hero-meta">
+                <div class="hero-meta-item">Est. <span>2002</span></div>
+                <div class="hero-meta-sep"></div>
+                <div class="hero-meta-item">NAAC Grade <span>A+</span></div>
+                <div class="hero-meta-sep"></div>
+                <div class="hero-meta-item">Students <span>3000+</span></div>
+                <div class="hero-meta-sep"></div>
+                <div class="hero-meta-item">Hyderabad, <span>India</span></div>
+            </div>
+
+            <div class="hero-scroll-hint">
+                <div class="scroll-line"></div>
+            </div>
+        </header>
+
+        <!-- ====== ABOUT SECTION ====== -->
+        <section id="about">
+            <div class="container">
+                <div class="about-inner">
+                    <div class="about-content reveal">
+                        <div class="section-label">About the Institution</div>
+                        <h2 class="section-title">Where<br /><em>Excellence Meets</em><br />Innovation</h2>
+                        <p class="about-body">
+                            Joginpally B.R. Engineering College is a hub of academic excellence and holistic
+                            development. Our vibrant campus hosts technical, cultural, and sports events year-round,
+                            inspiring creativity and innovation in every student.
+                        </p>
+                        <p class="about-body">
+                            The Events Portal connects you to all college happenings — past, present, and future — with
+                            seamless registration and real-time updates from the Student Activity Centre.
+                        </p>
+
+                        <div class="about-stats">
+                            <div class="stat-card reveal reveal-delay-1">
+                                <div class="stat-number">A+</div>
+                                <div class="stat-label">NAAC Grade</div>
+                            </div>
+                            <div class="stat-card reveal reveal-delay-2">
+                                <div class="stat-number">9</div>
+                                <div class="stat-label">Departments</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-visual reveal reveal-delay-2">
+                        <div class="corner-accent corner-tl"></div>
+                        <div class="corner-accent corner-br"></div>
+                        <div class="about-image-frame">
+                            <img src="images/bg 2.png" alt="JBREC Campus" />
+                            <div class="about-badge">Est. 1999 · Hyderabad</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== EVENTS SECTION ====== -->
+        <section id="events">
+            <div class="container">
+                <div class="events-header reveal">
+                    <div class="section-label">Flagship Event</div>
+                    <h2 class="section-title">TechXplore &amp;<br /><em>Aakriti 2K26</em></h2>
+                    <p class="events-subtext">Our signature annual festival — uniting talent, technology, and
+                        celebration on one grand stage.</p>
+                </div>
+
+                <div class="events-showcase">
+                    <!-- TechXplore Card -->
+                    <div class="event-card reveal reveal-delay-1">
+                        <div class="event-card-glow"></div>
+                        <div class="event-logo-wrap">
+                            <img src="images/TechXplore logo.jpeg" alt="TechXplore Logo" />
+                        </div>
+                        <div class="event-type">Technical · 2K26</div>
+                        <div class="event-name">TechXplore</div>
+                        <p class="event-desc">
+                            A premier technical symposium featuring hackathons, paper presentations, project expos, and
+                            workshops by industry leaders. Push boundaries, showcase brilliance.
+                        </p>
+                        <div class="event-tag-row">
+                            <span class="event-tag">Hackathon</span>
+                            <span class="event-tag">Paper Presentation</span>
+                            <span class="event-tag">Project Expo</span>
+                            <span class="event-tag">Workshops</span>
+                        </div>
+                    </div>
+
+                    <!-- Aakriti Card -->
+                    <div class="event-card reveal reveal-delay-2">
+                        <div class="event-card-glow"></div>
+                        <div class="event-logo-wrap">
+                            <img src="images/Aakriti logo.jpeg" alt="Aakriti Logo" />
+                        </div>
+                        <div class="event-type">Cultural · 2K26</div>
+                        <div class="event-name">Aakriti</div>
+                        <p class="event-desc">
+                            A vibrant cultural extravaganza celebrating music, dance, drama, and the arts. A platform
+                            where creativity knows no limits and every performance tells a story.
+                        </p>
+                        <div class="event-tag-row">
+                            <span class="event-tag">Music</span>
+                            <span class="event-tag">Dance</span>
+                            <span class="event-tag">Drama</span>
+                            <span class="event-tag">Fine Arts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organiser Banner -->
+                <div class="organiser-banner reveal">
+                    <div class="organiser-icon">🎓</div>
+                    <div class="organiser-text">
+                        <div class="organiser-label">Organized by</div>
+                        <div class="organiser-name">Student Activity Centre — JBREC</div>
+                        <div class="organiser-dept">With the support of various departments, faculty, and sponsors.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ====== FOOTER ====== -->
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand reveal">
+                    <img src="images/JBREC-Logo.jpg" alt="JBREC" class="footer-logo-img" />
+                    <h3 class="footer-brand-name">Joginpally B.R.<br /><em>Engineering College</em></h3>
+                    <p class="footer-tagline">
+                        Recognized under UGC Act 1956 · ISO 9001:2015 Certified<br />
+                        Yenkapally (V), Moinabad (M), Hyderabad - 500 075.
+                    </p>
+                </div>
+
+                <div class="footer-social reveal reveal-delay-2">
+                    <div class="footer-social-heading">Follow us</div>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/jbrecofficialsm?igshid=YzAwZjE1ZTI0Zg==" target="_blank"
+                            rel="noopener noreferrer" aria-label="Instagram">
+                            <img src="images/insta-logo.png" alt="Instagram" />
+                        </a>
+                        <a href="https://www.facebook.com/jbrecofficialsm?mibextid=ZbWKwL" target="_blank"
+                            rel="noopener noreferrer" aria-label="Facebook">
+                            <img src="images/Facebook_Logo.png" alt="Facebook" />
+                        </a>
+                        <a href="https://twitter.com/JbrecCollege" target="_blank" rel="noopener noreferrer"
+                            aria-label="X / Twitter">
+                            <img src="images/x-logo.jpg" alt="X" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copy">© Designed &amp; Built by Technical Team SAC JBREC — All rights reserved.</div>
+                <div class="footer-accreditation">
+                    <div class="accred-dot"></div>
+                    NAAC Accredited A+ · ISO 9001:2015
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ====== SCRIPTS ====== -->
+    <script src="indscript.js"></script>
+</body>
+
+</html>

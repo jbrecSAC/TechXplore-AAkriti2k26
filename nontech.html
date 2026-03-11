@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAC-JBREC | Non-Technical Events</title>
+
+    <!-- Premium Font Stack -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Link to Centralized Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
+    <!-- ====== NAVIGATION ====== -->
+    <nav id="navbar">
+        <div class="nav-left">
+            <a href="https://jbrec.edu.in" class="nav-logo" target="_blank">
+                <img src="images/JBREC-Logo.jpg" alt="JBREC Logo"
+                    onerror="this.src='https://via.placeholder.com/36/1A2860/FFFFFF?text=JB'" />
+                <span class="nav-logo-text">SAC · JBREC</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="./index.html">Home</a>
+                <a href="./ehub.html">Events</a>
+                <a href="./about.html">About</a>
+            </div>
+        </div>
+
+        <div class="nav-actions">
+            <div class="theme-switch-wrapper" id="themeSwitcher">
+                <div class="theme-slider" id="themeSlider"></div>
+                <button class="theme-btn" data-theme-val="light">Light</button>
+                <button class="theme-btn" data-theme-val="system">System</button>
+                <button class="theme-btn active" data-theme-val="dark">Dark</button>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ====== MAIN CONTENT ====== -->
+    <main>
+
+        <!-- Events Hero Header -->
+        <section class="events-hero">
+            <div class="container">
+                <div class="reveal">
+                    <div class="section-label">Beyond Technology</div>
+                    <h1 class="section-title">Non-Technical <em>Events</em></h1>
+
+                    <div class="collab-banner">
+                        <div class="collab-label">Proudly Organized by</div>
+                        <div class="collab-clubs"><span>Student Activity Centre</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EVENT CATEGORY TABS -->
+        <div class="event-tabs-container reveal">
+            <div class="event-tabs">
+                <a href="./tech.html" class="tab-link">Technical</a>
+                <a href="./nontech.html" class="tab-link active">Non-Technical</a>
+                <a href="./cultural.html" class="tab-link">Cultural</a>
+            </div>
+        </div>
+
+        <!-- Events Grid Section -->
+        <section class="events-grid-section">
+            <div class="container">
+                <div class="tech-grid">
+
+                    <div class="tech-card reveal reveal-delay-1">
+                        <div class="card-image-wrap">
+                            <img src="./images/TugOfWar.png" alt="Tug of war"
+                                onerror="this.src='https://via.placeholder.com/800x450/0A0C10/C9A84C?text=Tug+Of+War'" />
+                        </div>
+                        <div class="card-content">
+                            <h3 class="event-name">Tug of War</h3>
+                            <p class="event-tagline">Pull Your Weight to Victory.</p>
+                            <a href="#" class="register-btn">Register Now</a>
+                        </div>
+                    </div>
+
+                    <div class="tech-card reveal reveal-delay-2">
+                        <div class="card-image-wrap">
+                            <img src="./images/ArmWrestling.png" alt="Arm wrestling"
+                                onerror="this.src='https://via.placeholder.com/800x450/0A0C10/C9A84C?text=Arm+Wrestling'" />
+                        </div>
+                        <div class="card-content">
+                            <h3 class="event-name">Arm Wrestling</h3>
+                            <p class="event-tagline">Show Your True Strength.</p>
+                            <a href="#" class="register-btn">Register Now</a>
+                        </div>
+                    </div>
+
+                    <div class="tech-card reveal reveal-delay-3">
+                        <div class="card-image-wrap">
+                            <img src="./images/videoEditing.png" alt="Theme video editing"
+                                onerror="this.src='https://via.placeholder.com/800x450/0A0C10/C9A84C?text=Theme+Video+Editing'" />
+                        </div>
+                        <div class="card-content">
+                            <h3 class="event-name">Theme Video Editing</h3>
+                            <p class="event-tagline">Craft the Perfect Visual Story.</p>
+                            <a href="#" class="register-btn">Register Now</a>
+                        </div>
+                    </div>
+
+                    <div class="tech-card reveal reveal-delay-1">
+                        <div class="card-image-wrap">
+                            <img src="./images" alt="CornHole"
+                                onerror="this.src='https://via.placeholder.com/800x450/0A0C10/C9A84C?text=CornHole'" />
+                        </div>
+                        <div class="card-content">
+                            <h3 class="event-name">CornHole</h3>
+                            <p class="event-tagline">Aim, Toss, Score.</p>
+                            <a href="#" class="register-btn">Register Now</a>
+                        </div>
+                    </div>
+
+                    <div class="tech-card reveal reveal-delay-2">
+                        <div class="card-image-wrap">
+                            <img src="./images/treasureHunt.png" alt="Treasure hunt"
+                                onerror="this.src='https://via.placeholder.com/800x450/0A0C10/C9A84C?text=Treasure+Hunt'" />
+                        </div>
+                        <div class="card-content">
+                            <h3 class="event-name">Treasure Hunt</h3>
+                            <p class="event-tagline">Decode, Discover, Conquer.</p>
+                            <a href="#" class="register-btn">Register Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ====== FOOTER ====== -->
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand reveal">
+                    <img src="images/JBREC-Logo.jpg" alt="JBREC" class="footer-logo-img"
+                        onerror="this.src='https://via.placeholder.com/100x100/1A2860/FFFFFF?text=JB'" />
+                    <h3 class="footer-brand-name">Joginpally B.R.<br /><em>Engineering College</em></h3>
+                    <p class="footer-tagline">
+                        Recognized under UGC Act 1956 · ISO 9001:2015 Certified<br />
+                        Yenkapally (V), Moinabad (M), Hyderabad – 500 075.
+                    </p>
+                </div>
+
+                <div class="footer-social reveal reveal-delay-2">
+                    <div class="footer-social-heading">Follow us</div>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/jbrecofficialsm?igshid=YzAwZjE1ZTI0Zg==" target="_blank"
+                            aria-label="Instagram">
+                            <img src="images/insta-logo.png" alt="Instagram"
+                                onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNDOUE4NEMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSI1IiByeT0iNSI+PC9yZWN0PjxwYXRoIGQ9Ik0xNiAxMS4zN0ExIDQgMCAxIDEgMTIuNjMgOGExIDQgMCAwIDEgMy4zNyAzLjM3eiI+PC9wYXRoPjxsaW5lIHgxPSIxNy41IiB5MT0iNi41IiB4Mj0iMTcuNTEiIHkyPSI2LjUiPjwvbGluZT48L3N2Zz4='" />
+                        </a>
+                        <a href="https://www.facebook.com/jbrecofficialsm?mibextid=ZbWKwL" target="_blank"
+                            aria-label="Facebook">
+                            <img src="images/Facebook_Logo.png" alt="Facebook"
+                                onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNDOUE4NEMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTggMmgtM2NhYTMgMyAwIDAgMC0zIDN2M2gtM3Y0aDN2OGg0di04aDNsMS00aC00VjVhMSAxIDAgMCAxIDEtMWgzeiI+PC9wYXRoPjwvc3ZnPg=='" />
+                        </a>
+                        <a href="https://twitter.com/JbrecCollege" target="_blank" aria-label="X / Twitter">
+                            <img src="images/x-logo.jpg" alt="X"
+                                onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNDOUE4NEMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjIgNGwtMy4xIDUuM20wIDBsLTYuMy01LjNINExxNCAxMi41bDYuMiAxMS41aDQuOWw1LjItOC40TTkuNyA5LjNMNCA0aDQuOWw0LjIgNy40bTEgMS43bDYuMyAxMC45SDIyTTE1IDE1bC0xLjYtMi44Ij48L3BhdGg+PC9zdmc+'" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copy">© Designed &amp; Built by Technical Team SAC JBREC — All rights reserved.</div>
+                <div class="footer-accreditation">
+                    <div class="accred-dot"></div> NAAC Accredited A+ · ISO 9001:2015
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ====== SCRIPTS ====== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const glow = document.getElementById('cursorGlow');
+            if (glow) { document.addEventListener('mousemove', e => { glow.style.left = e.clientX + 'px'; glow.style.top = e.clientY + 'px'; }); }
+
+            const navbar = document.getElementById('navbar');
+            window.addEventListener('scroll', () => { navbar.classList.toggle('scrolled', window.scrollY > 60); });
+
+            const themeSwitcher = document.getElementById('themeSwitcher');
+            const navActions = document.querySelector('.nav-actions');
+            const navLinksContainer = document.getElementById('navLinks');
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+
+            function handleThemeSwitcherPosition() {
+                if (window.innerWidth < 768) {
+                    if (themeSwitcher.parentNode !== navLinksContainer) { navLinksContainer.appendChild(themeSwitcher); }
+                } else {
+                    if (themeSwitcher.parentNode !== navActions) { navActions.insertBefore(themeSwitcher, mobileMenuBtn); }
+                }
+            }
+            handleThemeSwitcherPosition();
+
+            const mobileOverlay = document.getElementById('mobileMenuOverlay');
+            const navLinksItems = navLinksContainer.querySelectorAll('a');
+
+            function toggleMenu() {
+                mobileMenuBtn.classList.toggle('active');
+                navLinksContainer.classList.toggle('active');
+                mobileOverlay.classList.toggle('active');
+                if (mobileMenuBtn.classList.contains('active')) {
+                    document.body.style.overflow = 'hidden';
+                    setTimeout(() => { const active = document.querySelector('.theme-btn.active'); if (active) updateSliderPosition(active); }, 300);
+                } else {
+                    document.body.style.overflow = '';
+                }
+            }
+
+            mobileMenuBtn.addEventListener('click', toggleMenu);
+            mobileOverlay.addEventListener('click', toggleMenu);
+            navLinksItems.forEach(link => { link.addEventListener('click', () => { if (mobileMenuBtn.classList.contains('active')) { toggleMenu(); } }); });
+
+            const html = document.documentElement;
+            const themeBtns = document.querySelectorAll('.theme-btn');
+            const themeSlider = document.getElementById('themeSlider');
+            const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+            function applyTheme(theme) {
+                if (theme === 'system') { html.setAttribute('data-theme', mediaQuery.matches ? 'dark' : 'light'); }
+                else { html.setAttribute('data-theme', theme); }
+            }
+
+            function updateSliderPosition(activeBtn) {
+                themeBtns.forEach(btn => btn.classList.remove('active'));
+                activeBtn.classList.add('active');
+                themeSlider.style.width = `${activeBtn.offsetWidth}px`;
+                themeSlider.style.transform = `translateX(${activeBtn.offsetLeft - 3}px)`;
+            }
+
+            const savedTheme = localStorage.getItem('sac-theme') || 'dark';
+            applyTheme(savedTheme);
+            setTimeout(() => { const initBtn = Array.from(themeBtns).find(b => b.dataset.themeVal === savedTheme); if (initBtn) updateSliderPosition(initBtn); }, 120);
+
+            themeBtns.forEach(btn => {
+                btn.addEventListener('click', e => {
+                    const theme = e.currentTarget.dataset.themeVal;
+                    localStorage.setItem('sac-theme', theme);
+                    applyTheme(theme);
+                    updateSliderPosition(e.currentTarget);
+                });
+            });
+
+            mediaQuery.addEventListener('change', () => { if (localStorage.getItem('sac-theme') === 'system') applyTheme('system'); });
+            window.addEventListener('resize', () => {
+                handleThemeSwitcherPosition();
+                requestAnimationFrame(() => {
+                    const active = document.querySelector('.theme-btn.active');
+                    if (active) updateSliderPosition(active);
+                    if (window.innerWidth > 768 && mobileMenuBtn.classList.contains('active')) { toggleMenu(); }
+                });
+            });
+
+            const reveals = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('active'); obs.unobserve(entry.target); } });
+            }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+            reveals.forEach(el => observer.observe(el));
+            setTimeout(() => { reveals.forEach(el => { if (el.getBoundingClientRect().top < window.innerHeight) { el.classList.add('active'); } }); }, 100);
+        });
+    </script>
+</body>
+
+</html>
